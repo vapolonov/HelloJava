@@ -12,4 +12,8 @@ public class Computer {
         System.out.println("Конфигурация компьютера: процессор - " + cpu + ", частота - " + cpuSpeed + " ГГц, " + "объем оперативной памяти - " + ram + " ГБ, " +
                 "материнская плата - " + motherBoard + ", жесткий диск - " + ssd + " Гб.");
     }
+
+    public void ramAdd() {
+        ram = ram + 2;
+    }
 }

@@ -20,6 +20,8 @@ public class HelloJava {
 
         computer1.printConfig();
         computer2.printConfig();
+        computer1.ramAdd();
+        computer1.printConfig();
 
     }
 }

@@ -7,6 +7,12 @@ plugins {
     id 'java-library'
 }
 
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(11)
+    }
+}
+
 repositories {
 //центральное хранилище https://mvnrepository.com/
     mavenCentral()
