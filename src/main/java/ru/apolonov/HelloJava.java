@@ -13,7 +13,7 @@ public class HelloJava {
         System.out.println("Конфигурация компьютера: " + "\n"
                 + "Процессор - " + cpu1.getModelCpu() + "\n"
                 + "Частота процессора - " + computer1.getCpuSpeed() + "\n"
-                + "Объем оперативной памяти - " + computer1.getRam() + " GHz");
+                + "Объем оперативной памяти - " + computer1.getRam() + " GB");
 
         System.out.println();
 
