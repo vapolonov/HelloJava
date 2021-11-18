@@ -8,7 +8,7 @@ public class Computer {
     private int ram;
     private String motherBoard;
     private int ssd;
-    Cpu cpu;
+    private Cpu cpu;
 
     static class Cpu {
         private String modelCpu;
