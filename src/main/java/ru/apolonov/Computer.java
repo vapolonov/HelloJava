@@ -20,4 +20,7 @@ public class Computer {
     public void ramAdd() {
         ram = ram + 2;
     }
+    public void changeCpu(String cpu) {
+        this.cpu = cpu;
+    }
 }

@@ -17,6 +17,7 @@ public class HelloJava {
         computer2.motherBoard = "Gigabite";
         computer2.ram = 16;
         computer2.ssd = 500;
+        computer2.changeCpu("Intel");
 
         computer1.printConfig();
         computer2.printConfig();
